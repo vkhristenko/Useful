@@ -40,6 +40,11 @@ docker run -p 4000:80 test
 docker run -d -p 4000:80 test
 ```
 
+- run a cc7 in an interactive shell 
+```
+docker run -it <image> /bin/bash
+```
+
 ## Tag the image
 ```
 docker tag <image-id> <username>/<repository>:<tag>
