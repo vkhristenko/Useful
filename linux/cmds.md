@@ -4,3 +4,8 @@
 ```
 cat /etc/passwd
 ```
+
+## List processors' info
+```
+cat /proc/cpuinfo
+```
