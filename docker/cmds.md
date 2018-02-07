@@ -49,3 +49,8 @@ docker run -it <image> /bin/bash
 ```
 docker tag <image-id> <username>/<repository>:<tag>
 ```
+
+## Join a running container within another shell
+```
+docker exec -it b7327326d0da /bin/bash
+```
