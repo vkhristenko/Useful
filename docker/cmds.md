@@ -54,3 +54,9 @@ docker tag <image-id> <username>/<repository>:<tag>
 ```
 docker exec -it b7327326d0da /bin/bash
 ```
+
+## Remove stopped containers
+**Will remove the image from disk (host filesystem)**
+```
+docker rm -f <container id>
+```
