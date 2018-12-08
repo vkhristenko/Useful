@@ -60,3 +60,8 @@ docker exec -it b7327326d0da /bin/bash
 ```
 docker rm -f <container id>
 ```
+
+## share a local directory `volume`
+```
+docker run -v /host/dir:/shared/dir -it 3e50fe78bedc /bin/bash
+```
