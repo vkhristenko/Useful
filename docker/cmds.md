@@ -65,3 +65,8 @@ docker rm -f <container id>
 ```
 docker run -v /host/dir:/shared/dir -it 3e50fe78bedc /bin/bash
 ```
+
+## to run gdb within the container, need a few special settings
+```
+docker run -v /Users/vk/software/test-hacking:/opt/test-hacking --cap-add=SYS_PTRACE --security-opt seccomp=unconfined -it 5aa63978641b /bin/bash
+```
